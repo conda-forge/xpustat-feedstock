@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 0.6.0
+  version: "0.7.0"
 
 package:
   name: xpustat
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/x/xpustat/xpustat-${{ version }}.tar.gz
-  sha256: ffbbebdbd4a4acdb472a4e96584b23ad867931b1ead598409132c15b9f9ee1c7
+  sha256: 70c864d796da933332509ada2429a9589ea7cc595cf777130dabf802355ea85c
 
 build:
   noarch: python
